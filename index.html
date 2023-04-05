@@ -8,17 +8,19 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
     <link rel="stylesheet" type="text/css" href="index.css">
     <link rel="stylesheet" type="text/css" href="bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css">
+
     <script src="bootstrap.js"></script>
 </head>
 <body>
   
-    <div class="container">
-    <div class="header">
+    <div class="container-fluid">
+   
         <!-- <div class="logo"><img src="./image/logo.png" alt=""   width="100px" ; ></div> -->
         
-          <nav class="navbar navbar-expand-lg navbar-light bg-light ">
+          <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top ">
             <div class="container-fluid">
-              <a class="navbar-brand" href="#">Navbar scroll</a>
+              <a class="navbar-brand" href="#"><span class="text-warning">Build future</span></a>
               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
               </button>
@@ -28,7 +30,7 @@
                     <a class="nav-link active" aria-current="page" href="#">Home</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="#">Link</a>
+                    <a class="nav-link" href="#">About us</a>
                   </li>
                   <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle" href="#" id="navbarScrollingDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
@@ -50,76 +52,306 @@
               </div>
             </div>
           </nav>
-    </div>
-    <div class="main">
-        <div class="main1">
-        <h1>Join us today</h1>
-        <h1>Teaching students how to determine for themselves what they value,
-             what is true, and what to do.</h1>
-             <button  type="submit">learn more</button>
-       </div>
-     
-     </div>
-    
-    <div class="content">
-        <div class="sub-content">
-           <h1> Welcome to --------Educational Consultancy</h1>
-            <p>--- Educational Consultancy is the pioneering and highly reputed educational consultancy which exclusively works for Indian overseas education. Since 2006 we have been continuously serving the students who want to experience Indian education at Vanguard Educational Institution. The consultancy is owned and managed by the team of Indian education expert with proven track records and credentials in the industry. Our organization has a single-minded focus, to guide students to the best possible Indian Institutions, thus enabling them to build their future. Using our expertise and vast experience we can identify the most suitable university for each student.
-            We have a wide portfolio of reputed Indian institutions which has made possible the successful placementof thousands of students at regarded universities in India. We are proud that we are praised for our consultant support. Feel free to discuss about your career with our well versed counselors.
-            Indo-world Educational consultancy is approved by the Ministry of Education (MoE), Nepal, and a member of ECAN.</p>
-         </div>
-        
-    </div>
-    <div class="image">
-        <div class="headlineforimage">
-            <h1>Prepare yourself for future</h1>
+   
+
+      <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
         </div>
-    <div class="d-flex justify-content-around">
-        <img src="./image/ielts.png" alt="Image 1">
-        <img src="./image/sat.png" alt="Image 2">
-        <img src="./image/tofel.png" alt="Image 3">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="./image/sat.png" class="d-block w-100" alt="...">
+            <div class="carousel-caption ">
+              <h1>Join us today</h1>
+              <h2>Teaching students how to determine for themselves what they value,
+                   what is true, and what to do.</h2>
+                   <button type="button" class="btn btn-warning">Explore</button>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="./image/ielts.png" class="d-block w-100" alt="...">
+            <div class="carousel-caption ">
+              <h1>Join us today</h1>
+              <h2>Teaching students how to determine for themselves what they value,
+                   what is true, and what to do.</h2>
+                   <button type="button" class="btn btn-warning">Explore</button>
+            </div>
+            
+          </div>
+          <div class="carousel-item">
+            <img src="./image/tofel.png" class="d-block w-100" alt="...">
+            <div class="carousel-caption ">
+              <h1>Join us today</h1>
+              <h2>Teaching students how to determine for themselves what they value,
+                   what is true, and what to do.</h2>
+                   <button type="button" class="btn btn-warning">Explore</button>
+                
+            </div>
+            
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      
       </div>
+   <section id="about" class="about-section-padding">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-4 col-md-12 col-12  mt-md-5 mb-5 ml-3 mr-3">
+            <img src="./image/11.png" alt="Your Image" class="img-fluid bounce-image ">
+          </div>
+          <div class="col-lg-8 col-md-12 c0l-12 ps-lg-5 mt-md-5">
+            <h3>Section Title</h3>
+            <h1>Nepal’s Number One Educational Consultancy</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla euismod orci nec libero eleifend, quis laoreet enim blandit. Sed aliquet sapien eget sapien imperdiet lobortis. Vestibulum pharetra libero euismod est ultrices, vel dignissim velit hendrerit. Nulla ac purus id ipsum suscipit lacinia. Nam sit amet enim et sapien aliquet dapibus.</p>
+            <button type="button" class="btn btn-warning">learn more</button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <div id="content" class="container">
+      <div class="row">
+        <div class="col-sm-8 mt-md-5">
+          <h1>Study Aboard</h1>
+          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+           Qui magnam impedit reiciendis odit? Itaque alias sequi eius maxime id 
+           fuga repudiandae sint aut ut, aspernatur iusto repellendus laboriosam 
+           assumenda quidem.</p><br>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur
+           nihil dignissimos sint 
+           voluptatem pariatur. Harum minus quidem at dolore excepturi.</p><br>
+           <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta aliquid ratione ipsa iusto,
+             non minus nemo quo consectetur hic magni inventore autem rem quidem neque.
+           </p>
+          </div>
+        <div class="col-sm-4 mt-md-5">
+          <img src="./image/usa.png" alt="" class="img-fluid " >
+        </div>
+      </div>
+      
+    </div>
+   <section id="services" class="services section-padding">
+    <div class="container">
+      <div class="row">
+       <div class="col-md-12">
+        <div class="section-header text-center pb-5">
+          <h2>Our services</h2>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta iste voluptatibus reprehenderit tempora explicabo a, nesciunt ut ullam ratione pariatur voluptates temporibus quis, quos sapiente?</p>
+        </div>
+       </div> 
+      </div>
+      
+    </div>
+
+   </section>
+   <div id="cards" class="container-fluid">
+
+   <div class="row">
+   <div class="col-12 col-md col-lg-4">
+    <div class="card text-black text-center bg-white pb-2">
+      <div class="card-body">
+        <i class="bi bi-subtract"></i>
+        <h3 class="card-title">University Application Assistance</h3>
+        <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati corrupti repellat cupiditate libero laudantium reiciendis neque optio voluptates minima eligendi!</p>
+        <button class="btn btn-warning text-dark">Read</button>
+      </div>
+    </div>
    </div>
-   <footer class="footer1">
-    <div class="row">
-      <div class="col-12 col-md-4 col-lg-4">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo autem nostrum quos!
-
-<hr>
-      </div>
-      <div class="col-12 col-md-4 col-lg-4">
-        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nulla mollitia id eaque porro ea fugit praesentium illum et sapiente voluptatum.
-        <hr>
-      </div>
-       <div class="col-12 col-md-4 col-lg-4">
-        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Beatae quaerat hic error dolore incidunt perspiciatis corrupti dolorem quae deserunt facilis.
-        <hr>
+   <div class="col-12 col-md col-lg-4">
+    <div class="card text-white text-center bg-dark pb-2">
+      <div class="card-body">
+        <i class="bi bi-subtract"></i>
+        <h3 class="card-title">Student screening </h3>
+        <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati corrupti repellat cupiditate libero laudantium reiciendis neque optio voluptates minima eligendi!</p>
+        <button class="btn btn-warning text-dark">Read</button>
       </div>
     </div>
-    <!-- <div class="f1">
-        <div class="f2">
-            <h3>Head Office</h3>
-            <h3>Kathmandu</h3>
-
-           <p><i class="fas fa-map-marker-alt"></i>way to krishna mandir, gwarkhu, lalitpur, Nepal</p>
-        </div>
-        <div class="f3">
-            <h1>  Destinations</h1>
-            <ul>
+   </div>
+   <div class="col-12 col-md col-lg-4">
+    <div class="card text-dark text-center bg-white pb-2">
+      <div class="card-body">
+        <i class="bi bi-subtract"></i>
+        <h3 class="card-title">Documentation Guidance</h3>
+        <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati corrupti repellat cupiditate libero laudantium reiciendis neque optio voluptates minima eligendi!</p>
+        <button class="btn btn-warning text-dark">Read</button>
+      </div>
+    </div>
+   </div>
+   <div class="col-12 col-md col-lg-4">
+    <div class="card text-white text-center bg-dark pb-2">
+      <div class="card-body">
+        <i class="bi bi-subtract"></i>
+        <h3 class="card-title">Interview Assistance</h3>
+        <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati corrupti repellat cupiditate libero laudantium reiciendis neque optio voluptates minima eligendi!</p>
+        <button class="btn btn-warning text-dark">Read</button>
+      </div>
+    </div>
+   </div>
+   <div class="col-12 col-md col-lg-4">
+    <div class="card text-black text-center bg-white pb-2">
+      <div class="card-body">
+        <i class="bi bi-subtract"></i>
+        <h3 class="card-title">Scholarship Assistance </h3>
+        <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati corrupti repellat cupiditate libero laudantium reiciendis neque optio voluptates minima eligendi!</p>
+        <button class="btn btn-warning text-dark">Read</button>
+      </div>
+    </div>
+   </div>
+   <div class="col-12 col-md col-lg-4">
+    <div class="card text-white text-center bg-dark pb-2">
+      <div class="card-body">
+        <i class="bi bi-subtract"></i>
+        <h3 class="card-title">Student Visa Declaration Form</h3>
+        <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati corrupti repellat cupiditate libero laudantium reiciendis neque optio voluptates minima eligendi!</p>
+        <button class="btn btn-warning text-dark">Read</button>
+      </div>
+    </div>
+   </div>
+  </div>
+</div>
+  <section id="portfolio" class="portfolio">
+    <div class="row">
+      <div class="col-md-12">
+       <div class="section-header text-center pb-5 mt-md-5">
+         <h2>Top Destination Around World</h2>
+         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta iste voluptatibus reprehenderit tempora explicabo a, nesciunt ut ullam ratione pariatur voluptates temporibus quis, quos sapiente?</p>
+       </div>
+      </div> 
+     </div>
+     <div class="container">
+      <div class="row">
+        <div class="col-6 col-md-4">
+         
+            <img src="./image/canada.png" alt="" class="img-fluid" width="100%">
+           <h3>Study in canada</h3>
           
-            <li> <p>Study in USA</p>  </li>
-            <li> <p> Study in Canada</p></li>
-            <li>  <p>Study in Australia</p></li>
-            <li>  <p>Study in United Kingdom</p></li>
-            <li> <p>Study in New Zealand</p></li>
-            <li>   <p>Study in Netherlands</p></li>
-            </ul>
+        </div>
+        <div class="col-6 col-md-4">
+          <img src="./image/usa.png" alt="" class="img-fluid" width="100%">
+           <h3>Study in USA</h3>
+        </div>
+        <div class="col-6 col-md-4">
+          <img src="./image/australia.png" alt="" class="img-fluid" width="100%">
+          <h3>Study in Australia</h3>
+        </div>
+        <div class="col-6 col-md-4">
+         
+          <img src="./image/uk.png" alt="" class="img-fluid" width="100%">
+         <h3>Study in United Kingdom</h3>
+        
+      </div>
+      <div class="col-6 col-md-4">
+        <img src="./image/netherland.png" alt="" class="img-fluid" width="100%">
+         <h3>Study in Netherlands</h3>
+      </div>
+      <div class="col-6 col-md-4">
+        <img src="./image/newzealand.jpg" alt="" class="img-fluid" width="100%">
+        <h3>Study in Newzealand</h3>
+      </div>
+    
+      </div>
+    </div>
+    <section id="contact" class="contact-section-padding">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12 text-center mt-md-5">
+            <h1>Contact Us</h1>
+          </div>
+          <div class="col-md-6  mt-md-5">
+            <form class="bg-light p-4.m-auto">
+              <div class="form-group">
+                <label for="name">Name</label>
+                <input type="text" class="form-control" id="name" placeholder="Enter your name">
+              </div>
+              <div class="form-group">
+                <label for="email">Email address</label>
+                <input type="email" class="form-control" id="email" placeholder="Enter your email">
+              </div>
+              <div class="form-group">
+                <label for="phone">Phone number</label>
+                <input type="tel" class="form-control" id="phone" placeholder="Enter your phone number">
+              </div>
+              <div class="form-group">
+                <label for="message">Message</label>
+                <textarea class="form-control" id="message" rows="3" placeholder="Enter your message"></textarea>
+              </div>
+              <div class="col-md-12 text-center">
 
+              <button type="submit" class="btn btn-warning btn-lg btn-block mt-3">Submit</button>
+              </div>
+            </form>
+          </div>
+          <div class="col-md-6  mt-md-5">
+            <div class="mapouter"><div class="gmap_canvas"><iframe width="770" height="510" id="gmap_canvas" src="https://maps.google.com/maps?q=gwarkhu lalitpur&t=&z=10&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a href="https://2yu.co">2yu</a><br><style>.mapouter{position:relative;text-align:right;height:610px;width:870px;}</style><a href="https://embedgooglemap.2yu.co">html embed google map</a><style>.gmap_canvas {overflow:hidden;background:none!important;height:310px;width:570px;}</style></div>
+          </div>
+          </div>
         </div>
-        <div class="f4">
-          <h1>About us</h1>
-        </div>
-    </div> -->
+      </div>
+    
+       
+  </section>
+<div id="worldmap" class="container">
+  <div>
+  <h1>Assisting you in your study abroad goals</h1>
+  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium ut sapiente possimus?</p><Hr>
+  </div>
+  <div class="row">
+    <div class="col">
+      <h4>International Students</h4>
+      <h1>100000+</h1>
+    </div>
+    <div class="col">
+      <h4>SCHOLARSHIPS
+        APPROVED</h4>
+      <h1>10000+</h1>
+    </div>
+    <div class="col">
+      <h4>ENROLLED IN
+        IELTS/PTE PREPARATION CLASSES</h4>
+      <h1>10000+</h1>
+    </div>
+</div>
+</div>
+
+
+   <footer class="container-fluid mt-md-5">
+    <div class="row">
+      <div class="col-12 col-md-4 col-lg-4 mt-md-5">
+        <h1>Head Office</h1>
+        <h3>Kathmandu</h3>
+
+       <p>way to krishna mandir, gwarkhu, lalitpur, Nepal</p>
+
+
+      </div>
+      <div class="col-12 col-md-4 col-lg-4 mt-md-5">
+        <h1>  Destinations</h1>
+        <ul>
+      
+        <li> <p>Study in USA</p>  </li>
+        <li> <p> Study in Canada</p></li>
+        <li>  <p>Study in Australia</p></li>
+        <li>  <p>Study in United Kingdom</p></li>
+        <li> <p>Study in New Zealand</p></li>
+        <li>   <p>Study in Netherlands</p></li>
+        </ul>
+      
+      </div>
+       <div class="col-12 col-md-4 col-lg-4 mt-md-5">
+        <h1>About us</h1>
+        
+      </div>
+      
+    </div>
     
     <p>© 2023------------ Educational Consultancy. ------------------</p>
    </footer>
