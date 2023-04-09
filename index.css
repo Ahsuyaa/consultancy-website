@@ -1,270 +1,288 @@
-*{
-  font-family:'Times New Roman', Times, serif;
-}
-
-.section-padding
+*
 {
-  padding: 100px 0;
+  padding:0;
+  margin:0;
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif ;
 }
-.carousel-item
-{
-  height:100vh;
-  /* min-height: 300px; */
-}
-.carousel-caption{
-margin-bottom: 25px;
-  z-index: 2;
-}
-.carousel-caption h1{
-  font-size: 40px;
-  text-transform: uppercase;
-  letter-spacing: 2px;
+body{
+  overflow-x:hidden ;
 
 }
-.carousel-caption h2{
- margin: 20px;  
-  font-size: 30px;
-  line-height: 2.1;
-}
-.carousel-item::before
-{
-  content: "";
-  position:absolute;
+
+
+/* .carousel-caption{
+  margin-bottom: 25px;
+    z-index: 2;
+  }
+  .carousel-caption h1{
+    font-size: 40px;
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+  
+  }
+  .carousel-caption p{
+   margin: 20px;  
+    font-size: 30px;
+    line-height: 2.1;
+    color:white;
+  }
+  .carousel-item::before
+  {
+    content: "";
+    position:absolute;
+    width:100%;
+    height:100vh;
+    background: rgba(0,0,0,0.7);
+    z-index: 1;
+  }
+  .carousel-item img
+  {
   width:100%;
-  height:100%;
-  background: rgba(0,0,0,0.7);
- z-index: 1;
-}
-@media only screen and (min-width:767px) and (max-width:1112px)
-{
- .carousel-caption
- { 
-  bottom:270px;
- }
- .carousel-caption p{
-  width: 100%;
- }
- .carousel-item
- {
-  height:100%;
- }
- .carousel-item img
- {
-  height: 100%;
-  
- }
- 
- #about h1{
-  font-size:45px;
-}
-#about h3{
-  font-size:20px;
-}
-#about p{
-  font-size:13px;
-}
-
-#content h1
-{
-  font-size:45px;
-}
-#content p
-{
-  font-size:13px;
-}
-#sevice h2
-{
-  font-size:40px;
-}
-#sevice p
-{
-  font-size:13px;
-}
-.card-body h3
-{
-  font-size: 35px;
-}
-.card-body p
-{
-  font-size: 13px;
-}
-#portfolio h3
-{
-  font-size: 35px;
-}
-}
-
-@media only screen and (min-width:511px) and  (max-width:767px)
-{
-  .navbar
-  {
-    text-align: center;
-   
-  }
-  #carouselExampleCaptions
-  {
-    margin-bottom: 40px;
-  }
- 
-  .carousel-caption
-  {
-    bottom:125px;
-  }
-  .carousel-caption h1 {
-    font-size: 20px;
-  }
-  .carousel-caption h2{
-    width: 100%;
-   font-size: 25px;
-   line-height: 1;
-  }
-  .carousel-item
- {
-  height:50vh
- }
-
- #about h1{
-  font-size:35px;
-}
-#about h3{
-  font-size:15px;
-}
-#about p{
-  font-size:10px;
-}
-#content h1
-{
-  font-size:35px;
-}
-#content p
-{
-  font-size:10px;
-}
-
-#sevice h2
-{
-  font-size:35px;
-}
-#sevice p
-{
-  font-size:10px;
-}
-.card-body h3
-{
-  font-size: 30px;
-}
-.card-body p
-{
-  font-size: 10px;
-  
-}
-#portfolio h3
-{
-  font-size: 30px;
-}
-}
-
-@media only screen and (max-width:510px)
-{
-  /* .carousel-caption
-  {
-    bottom:125px;
+  height:100vh;
   } */
-  #carouselExampleCaptions
+
+  @media only screen and (min-width:1110px) and (max-width:1400px)
   {
-    margin-bottom: 40px;
+    .carousel-caption{
+      margin-bottom: 25px;
+        z-index: 2;
+      }
+      .carousel-caption h1{
+        font-size: 40px;
+        color: white;
+        text-transform: uppercase;
+        letter-spacing: 2px;
+      
+      }
+      .carousel-caption h2{
+       margin: 20px;  
+        font-size: 30px;
+        line-height: 2.1;
+        color:white;
+      }
+      .carousel-item::before
+      {
+        content: "";
+        position:absolute;
+        width:100%;
+        height:100%;
+        background: rgba(0,0,0,0.7);
+        z-index: 1;
+      }
+      .carousel-item img
+      {
+      width:100%;
+      height:100vh;
+      }
+       h1
+      {
+        font-size: 40px;
+   
+      }
+      p
+      {
+        font-size: 20px;
+
+      }
+     h3
+      {
+        font-size: 35px;
+   
+      }
+     h2
+      {
+        font-size: 37px;
+   
+      }
+      h5 
+      {
+        font-size: 30px;
+      }
+
   }
-  .carousel-caption h1 {
-    font-size: 15px;
+  @media only screen and (min-width:700px) and (max-width:1109px) 
+  {
+    .carousel-caption{
+      margin-bottom: 20px;
+        z-index: 2;
+      }
+      .carousel-caption h1{
+        font-size:30px;
+        color: white;
+        text-transform: uppercase;
+        letter-spacing: 1.5px;
+      
+      }
+      .carousel-caption h2{
+       margin: 15px;  
+        font-size: 20px;
+        line-height: 1.7;
+        color:white;
+      }
+      .carousel-item::before
+      {
+        content: "";
+        position:absolute;
+        width:100%;
+        height:100%;
+        background: rgba(0,0,0,0.7);
+        z-index: 1;
+      }
+      .carousel-item img
+      {
+      width:100%;
+      height:85vh;
+      }
+       h1
+      {
+        font-size: 35px;
+   
+      }
+     p
+      {
+        font-size: 15px;
+
+      }
+      h3
+      {
+        font-size: 25px;
+   
+      }
+     h2
+      {
+        font-size: 30 px;
+   
+      }
+      h5 
+      {
+        font-size: 20px ;
+      }
   }
-  .carousel-caption h2{
-    width: 100%;
-   font-size: 15px;
-   line-height: 1;
+  @media only screen and (min-width:500px) and (max-width:699px) 
+  {
+    .carousel-caption{
+      margin-bottom: 20px;
+        z-index: 2;
+      }
+      .carousel-caption h1{
+        font-size:25px;
+        color: white;
+        text-transform: uppercase;
+        letter-spacing: 1.2px;
+      
+      }
+      .carousel-caption h2{
+       margin: 10px;  
+        font-size: 15px;
+        line-height: 1.5;
+        color:white;
+      }
+      .carousel-item::before
+      {
+        content: "";
+        position:absolute;
+        width:100%;
+        height:100%;
+        background: rgba(0,0,0,0.7);
+        z-index: 1;
+      }
+      .carousel-item img
+      {
+      width:100%;
+      height:75vh;
+      }
+       h1
+      {
+        font-size: 25px;
+   
+      }
+      p  
+      {
+        font-size: 12px;
+
+      }
+      h3
+      {
+        font-size: 22px;
+   
+      }
+       h2
+      {
+        font-size: 23 px;
+   
+      }
   }
-  .carousel-item 
+  @media only screen  and (max-width:499px) 
+  {
+    .carousel-caption{
+      margin-bottom: 20px;
+        z-index: 2;
+      }
+      .carousel-caption h1{
+        font-size:15px;
+        color: white;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+      
+      }
+      .carousel-caption h2{
+       margin: 5px;  
+        font-size: 10px;
+        line-height: 1.2;
+        color:white;
+      }
+      .carousel-item::before
+      {
+        content: "";
+        position:absolute;
+        width:100%;
+        height:100%;
+        background: rgba(0,0,0,0.7);
+        z-index: 1;
+      }
+      .carousel-item img
+      {
+      width:100%;
+      height:50vh;
+      }
+      h1
+      {
+        font-size: 20px;
+   
+      }
+       p 
+      {
+        font-size: 8px;
+
+      }
+      h3
+      {
+        font-size: 15px;
+   
+      }
+
+       h2
+      {
+        font-size: 18 px;
+   
+      }
+      h5 
+      {
+        font-size: 12px;
+      }
+  }
+ #navbarSupportedContent
  {
-  height:50vh;
+  margin-left: 35px;
+  font-size: 30px;
  }
-
- #about h1{
-  font-size:30px;
-}
-#about h3{
-  font-size:13px;
-}
-#about p{
-  font-size:8px;
-}
-
-#content h1
-{
-  font-size:30px;
-}
-#content p
-{
-  font-size:8px;
-}
-#sevice h2
-{
-  font-size:25px;
-}
-#sevice p
-{
-  font-size:8px;
-}
-.card-body h3
-{
-  font-size: 20px;
-}
-.card-body p
-{
-  font-size: 8px;
-  
-}
-#portfolio h3
-{
-  font-size: 20px;
-}
-}
-/* #about img 
-{
-  height:60vh;
-  min-height: 150px;
-} */
-
-.navbar a
-{
- font-size: 18px;
- margin-left: 20px;
- font-weight: bold;
-}
-
-#about img{
-  max-width: 100%;
-  height: auto;
+ .navbar ul{
+  font-weight: bold;
 
  }
- #about
-{
-  margin-bottom: 40px;
-}
-#cards
-{
-  margin-bottom: 40px;
-}
-
-#content .col-sm-8
-{
-  background:  rgba(243, 227, 14, 0.4);
- 
-}
-#content img
-{
-width: 100%;
-height: 100%;
-}
-.bounce-image {
+ .bounce-image {
   animation-name: bounce;
   animation-duration: 1s;
   animation-iteration-count: infinite;
@@ -279,25 +297,8 @@ height: 100%;
     transform: translateY(-30px);
   }
 }
-#portfolio img
+.testimonials img
 {
- 
+ width: 150px;
+ height: 150px;
 }
-#worldmap
-{
-  background-image: url("./image/world.png");
-  background-attachment: fixed;
-  background-size: cover;
-  color: aliceblue;
-  z-index: 1;
-}
-
-footer
-{
-  background-color:  rgba(243, 227, 14, 0.4);
- 
-
-}
-
-
-
