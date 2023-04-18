@@ -7,6 +7,7 @@
 }
 body{
   overflow-x:hidden ;
+  /* scroll-behavior: smooth; */
 
 }
 
@@ -43,7 +44,7 @@ body{
   height:100vh;
   } */
 
-  @media only screen and (min-width:1110px) and (max-width:1400px)
+  @media only screen and (min-width:1401px) and (max-width:2100px)
   {
     .carousel-caption{
       margin-bottom: 25px;
@@ -83,26 +84,59 @@ body{
       }
       p
       {
-        font-size: 20px;
+        font-size: 16px;
 
       }
      h3
       {
-        font-size: 35px;
+        font-size: 24px;
    
       }
      h2
       {
-        font-size: 37px;
+        font-size: 30px;
    
       }
       h5 
       {
-        font-size: 30px;
+        font-size: 18px;
       }
+      .testimonials h1, footer h1 , .ourteam h1, .Questions h1, .about h1, .service h1, #contact h1,.blogs- h1
+      {
+        font-size: 40px;
+        font-weight: bold;
+      }
+     
+      .testimonials p, footer p , .ourteam p, .Questions p, .about p, .service p,.blogs- p 
+      {
+        font-size: 16px;
 
+      }
+     
+      .testimonials h3, footer h3 , .ourteam h3, .Questions h3, .about h3 , .service h3,.blogs- h3
+      {
+        font-size: 24px;
+
+      }
+    
+      .testimonials h2, footer h2 , .ourteam h2, .Questions h2, .about h2 , .service h2 ,.blogs- h2
+      {
+        font-size: 30 px;
+   
+      }
+    
+      .testimonials h5, footer h5 , .ourteam h5,.blogs h5, .Questions h5, .about h5 , .service h5,#contact h5, .blogs- h5
+      {
+        font-size: 18px;
+      }
+      .icons 
+      {
+       font-size: 100px;
+      }
+    
   }
-  @media only screen and (min-width:700px) and (max-width:1109px) 
+  
+  @media only screen and (min-width:900px) and (max-width:1400px) 
   {
     .carousel-caption{
       margin-bottom: 20px;
@@ -137,7 +171,7 @@ body{
       }
        h1
       {
-        font-size: 35px;
+        font-size: 30px;
    
       }
      p
@@ -147,20 +181,52 @@ body{
       }
       h3
       {
-        font-size: 25px;
+        font-size: 20px;
    
       }
      h2
       {
-        font-size: 30 px;
+        font-size: 25 px;
    
       }
       h5 
       {
-        font-size: 20px ;
+        font-size: 18px ;
       }
-  }
-  @media only screen and (min-width:500px) and (max-width:699px) 
+      .testimonials h1, footer h1 , .ourteam h1, .Questions h1, .about h1, .service h1, #contact h1 ,.blogs- h1
+      {
+        font-size: 30px;
+        font-weight: bold;
+      }
+     
+      .testimonials p, footer p , .ourteam p, .Questions p, .about p, .service p, .blogs p, .blogs- p
+      {
+        font-size: 15px;
+
+      }
+     
+      .testimonials h3, footer h3 , .ourteam h3, .Questions h3, .about h3 , .service h3, .blogs- h3
+      {
+        font-size: 20px;
+
+      }
+    
+      .testimonials h2, footer h2 , .ourteam h2, .Questions h2, .about h2 , .service h2, .blogs- h2
+      {
+        font-size: 25 px;
+   
+      }
+    
+      .testimonials h5, footer h5 , .ourteam h5,.blogs h5, .Questions h5, .about h5 , .service h5,#contact h5, .blogs- h5
+            {
+        font-size: 18px;
+      }
+      .icons 
+      {
+       font-size: 75px;
+      }
+    }
+  @media only screen and (min-width:500px) and (max-width:899px) 
   {
     .carousel-caption{
       margin-bottom: 20px;
@@ -195,7 +261,7 @@ body{
       }
        h1
       {
-        font-size: 25px;
+        font-size: 22px;
    
       }
       p  
@@ -205,14 +271,52 @@ body{
       }
       h3
       {
-        font-size: 22px;
+        font-size: 18px;
    
       }
        h2
       {
-        font-size: 23 px;
+        font-size: 20 px;
    
       }
+      h5
+      {
+        font-size: 15px;
+      }
+     
+      .testimonials h1, footer h1 , .ourteam h1, .Questions h1, .about h1, .service h1, #contact h1, .blogs- h1
+      {
+        font-size: 22px;
+        font-weight: bold;
+      }
+     
+      .testimonials p, footer p , .ourteam p, .Questions p, .about p, .service p, .blogs p, .blogs- p
+      {
+        font-size: 12px;
+
+      }
+     
+      .testimonials h3, footer h3 , .ourteam h3, .Questions h3, .about h3 , .service h3, .blogs- h3
+      {
+        font-size: 18px;
+
+      }
+    
+      .testimonials h2, footer h2 , .ourteam h2, .Questions h2, .about h2 , .service h2
+      {
+        font-size: 20 px;
+   
+      }
+    
+      .testimonials h5, footer h5 , .ourteam h5, .blogs h5,.Questions h5, .about h5 , .service h5,#contact h5
+      {
+        font-size: 15px;
+      }
+      .icons 
+      {
+       font-size: 50px;
+      }
+    
   }
   @media only screen  and (max-width:499px) 
   {
@@ -229,7 +333,7 @@ body{
       }
       .carousel-caption h2{
        margin: 5px;  
-        font-size: 10px;
+        font-size: 12px;
         line-height: 1.2;
         color:white;
       }
@@ -249,38 +353,69 @@ body{
       }
       h1
       {
-        font-size: 20px;
+        font-size: 18px;
    
+      }
+      .testimonials h1, footer h1 , .ourteam h1, .Questions h1, .about h1, .service h1, #contact h1, .blogs- h1
+      {
+        font-size: 18px;
+        font-weight: bold;
       }
        p 
       {
         font-size: 8px;
 
       }
+      .testimonials p, footer p , .ourteam p, .Questions p, .about p, .service p, .blogs- p
+      {
+        font-size: 8px;
+
+      }
       h3
       {
-        font-size: 15px;
+        font-size: 12px;
    
       }
-
-       h2
+      .testimonials h3, footer h3 , .ourteam h3, .Questions h3, .about h3 , .service h3,.blogs- h3
       {
-        font-size: 18 px;
+        font-size: 12px;
+
+      }
+     h2 
+     {
+      font-size: 15 px;
+ 
+     }
+      .testimonials h2, footer h2 , .ourteam h2, .Questions h2, .about h2 , .service h2,.blogs- h2
+      {
+        font-size: 15 px;
    
       }
       h5 
       {
-        font-size: 12px;
+        font-size: 10px;
       }
+      .testimonials h5, footer h5 , .ourteam h5, .Questions h5, .about h5 , .blogs h5,.service h5,#contact h5,.blogs- h5
+      {
+        font-size: 10px;
+      }
+      .icons 
+      {
+       font-size: 25px;
+      }
+     
   }
- #navbarSupportedContent
+.nav-link
  {
-  margin-left: 35px;
-  font-size: 30px;
+  font-size: 18px;
+
+ }
+ .nav-item 
+ {
+  margin-left: 15px;
  }
  .navbar ul{
-  font-weight: bold;
-
+  font-weight:400;
  }
  .bounce-image {
   animation-name: bounce;
@@ -297,8 +432,158 @@ body{
     transform: translateY(-30px);
   }
 }
-.testimonials img
+.ourteam img
 {
  width: 150px;
  height: 150px;
+}
+
+
+
+.testimonials a:hover 
+{
+  color:white;
+} 
+.ourteambtn a:hover 
+{
+  color: white ;
+}
+#contact input{
+  height:40px;
+  outline: none;
+  border-radius: 25px;
+  border: 1px solid gainsboro;
+ margin: 10px;
+  
+  height: 45px;
+  padding: 10px;
+  box-shadow: inset 8px 8px #ffffff,inset -8px -8px 8px #ecf0f3;
+  /* width: 100%; */
+} 
+#contact textarea {
+  margin: 10px;
+  border-radius: 25px;
+  outline: none;
+  border: 1px solid gainsboro;
+  padding: 10px;
+  box-shadow: inset 8px 8px #ffffff,inset -8px -8px 8px #ecf0f3;
+  width: 96%;
+}
+#contact button{
+  border-radius: 15px;
+  border: 1px solid;
+  padding-left: 20px;
+  padding-right: 20px;
+ 
+}
+.form-group
+{
+  width: 46%;
+  float: left;
+}
+#cards button 
+{
+  padding-left: 25px;
+  padding-right: 25px;
+}
+ 
+
+.bounce-card:hover {
+  animation-name: bounce1;
+  animation-duration: 1s;
+  animation-iteration-count:infinite;
+  animation-direction: alternate-reverse;
+}
+
+@keyframes bounce1 {
+  from {
+    transform: translateY(0);
+  }
+  to {
+    transform: translateY(-30px);
+  }
+}
+.about img 
+{
+  height:100%;
+  width:100%
+}
+
+.blog-image
+{
+  height: 10vh;
+}
+.card-hover:hover i  {
+  color:red;
+ 
+  
+}
+
+
+.owl-nav 
+{
+  display: flex;
+  justify-content: space-between;
+  position: absolute;
+  inset: 0;
+ font-size: 40px;
+ color:gainsboro;
+}
+ .nav-link:hover {
+  background-color: gainsboro;
+}
+input:focus::placeholder , textarea:focus::placeholder{
+  transform: translateY(-2.5em);
+  transition: transform 0.3s ease-out;
+}
+/* .testimonials img{
+  width: 100%;
+ height: 50vh;
+} */
+.img-area
+{
+ 
+  padding: 30px;
+  position: relative;
+  display: block;
+  background: #fff;
+  color:black;
+  box-shadow: rgba(0,0,0,0.35) 0 5px 15px;
+  margin:40px 0;
+}
+.img-area h5{
+  font-size:16px;
+  font-weight:700;
+  color:#0a69ed;
+  margin-top:30px;
+  margin-bottom: 5px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+.img-area .box-area 
+{
+  width: 100px;
+  height: 90px;
+  position: absolute;
+  top:-40px;
+  left:0;
+  bottom:0;
+  right:0;
+  z-index: 1;
+  border: 5px solid #fff;
+  border-radius: 50%;
+  box-shadow: 0 5px 4px rgba(0,0,0,0.5);
+  text-align: center;
+}
+.img-area .box-area img
+{
+  width:100%;
+  height: 80px;
+  border-radius: 70%;
+}
+
+#testimonials- img
+{
+  height: 40vh;
+  width: 100%;
 }
